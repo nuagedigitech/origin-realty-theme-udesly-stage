@@ -1,3 +1,15 @@
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
 .top-nav-div {
   height: 100%;
 }
@@ -288,6 +300,7 @@
 }
 
 .hero-property-types-div {
+  display: none;
   height: 20vh;
 }
 
@@ -1823,6 +1836,25 @@
   text-transform: none;
 }
 
+.rich-text-block {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: Poppins, sans-serif;
+}
+
+.rich-text-block h2 {
+  font-size: 28px;
+}
+
+.rich-text-block p {
+  font-size: 16px;
+}
+
+.rich-text-cont {
+  max-width: 90%;
+  text-align: center;
+}
+
 .brands {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2186,6 +2218,9 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .rich-text-block p {
+    font-size: 16px;
   }
   .footer-div-contact-cont {
     max-width: 100%;
@@ -2591,6 +2626,12 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .rich-text-block h2 {
+    font-size: 26px;
+  }
+  .rich-text-block p {
+    font-size: 16px;
   }
   .button-footer {
     font-size: 14px;
