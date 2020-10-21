@@ -680,7 +680,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Lato, sans-serif;
+  font-family: Poppins, sans-serif;
   color: #2f4858;
   font-size: 14px;
   font-weight: 700;
@@ -1198,7 +1198,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-right: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   margin-left: 0px;
   padding-right: 0px;
   padding-left: 10px;
@@ -1206,7 +1206,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Lato, sans-serif;
+  font-family: Poppins, sans-serif;
   color: #2f4858;
   font-size: 20px;
   line-height: 30px;
@@ -1261,7 +1261,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Lato, sans-serif;
+  font-family: Poppins, sans-serif;
   color: #2f4858;
   font-size: 20px;
   line-height: 30px;
@@ -1677,6 +1677,47 @@
   width: 25%;
 }
 
+.channel-partners-div {
+  margin-top: 40px;
+}
+
+.brand-image-and-text-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 220px;
+  margin: 10px;
+  padding: 14px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #c9dcb1;
+  box-shadow: 5px 7px 9px -8px #000;
+}
+
+.text-block-13-copy {
+  display: none;
+  margin-top: 20px;
+  padding-left: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
 .image-8 {
   width: 120px;
   height: 120px;
@@ -1685,6 +1726,10 @@
 .image-9 {
   width: 120px;
   height: 120px;
+}
+
+.image-13 {
+  height: 50%;
 }
 
 .image-10 {
@@ -1710,6 +1755,53 @@
   justify-content: center;
 }
 
+.link-field-label-copy-2-copy-copy {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Icofont, sans-serif;
+  color: #2f4858;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.contact-email-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-address-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.italic-text-5 {
+  font-style: normal;
+}
+
 .home-coll-projects-image-div {
   position: relative;
   width: 400px;
@@ -1721,12 +1813,36 @@
   background-repeat: no-repeat;
 }
 
+.heading-2-copy {
+  margin-bottom: 40px;
+  font-family: Coda, sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+}
+
+.brands {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .home-coll-projects-image-div-brigade {
   position: relative;
   width: 400px;
   height: 400px;
   border-radius: 16px;
-  background-image: url('../images/cms/brigade-main-image.jpg');
+  background-image: url('../images/cms/5f38cae039ae74ce82eed0af_E-Brochure-03%20(copy)%201.jpg');
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2143,6 +2259,10 @@
     border-bottom-color: #fff;
     background-color: #c9dcb1;
   }
+  .link-field-label-copy-2-copy-copy {
+    margin-left: 0px;
+    padding-right: 10px;
+  }
   .button-footer {
     font-size: 16px;
   }
@@ -2152,6 +2272,9 @@
   .link-field-label-copy-2 {
     margin-left: 0px;
     padding-right: 10px;
+  }
+  .brand-image-and-text-div {
+    width: 200px;
   }
   .text-block-11 {
     margin-left: 10px;
@@ -2518,6 +2641,10 @@
     margin-top: 10px;
     font-size: 16px;
   }
+  .link-field-label-copy-2-copy-copy {
+    margin-top: 10px;
+    font-size: 22px;
+  }
   .link-field-label-error-copy {
     margin-top: 10px;
     font-size: 14px;
@@ -2540,6 +2667,9 @@
     -ms-flex-align: center;
     align-items: center;
   }
+  .text-block-13-copy {
+    font-size: 18px;
+  }
   .top-nav-div-1-top-copy-2 {
     display: none;
     height: 100%;
@@ -2547,6 +2677,9 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .brand-image-and-text-div {
+    width: 160px;
   }
   .paragraph {
     width: 90%;
@@ -2816,6 +2949,11 @@
     margin-right: 10px;
     margin-left: 10px;
   }
+  .link-field-label-copy-2-copy-copy {
+    margin-right: 2px;
+    font-size: 20px;
+    text-align: center;
+  }
   .grid-area3-div {
     height: 240px;
     margin-right: 10px;
@@ -2849,6 +2987,10 @@
     -ms-flex-align: stretch;
     align-items: stretch;
   }
+  .brand-image-and-text-div {
+    width: 300px;
+    height: 280px;
+  }
   .link-field-label-copy-2-copy {
     font-size: 16px;
     text-align: center;
@@ -2881,6 +3023,17 @@
   .slide-projects {
     background-image: url('../images/slide-mob-port.jpg');
   }
+  .brands {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }  
   .projects-temp-coll-inner-div-price {
     width: 90%;
   }
