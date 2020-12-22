@@ -401,7 +401,7 @@ p {
 }
 
 .footer-div-contact {
-  display: block;
+  display: none;
   height: 30%;
   border-bottom: 1px solid #fff;
   background-color: #c9dcb1;
